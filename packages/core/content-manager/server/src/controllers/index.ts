@@ -8,8 +8,10 @@ import uid from './uid';
 import history from '../history';
 import preview from '../preview';
 import homepage from '../homepage';
+import auditLogs from './audit-logs';
 
 export default {
+  'audit-logs': auditLogs,
   'collection-types': collectionTypes,
   components,
   'content-types': contentTypes,

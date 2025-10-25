@@ -12,8 +12,12 @@ import preview from '../preview';
 import homepage from '../homepage';
 import documentMetadata from './document-metadata';
 import documentManager from './document-manager';
+import auditLogger from './audit-logger';
+import auditDocumentManager from './audit-document-manager';
 
 export default {
+  'audit-logger': auditLogger,
+  'audit-document-manager': auditDocumentManager,
   components,
   'content-types': contentTypes,
   'data-mapper': dataMapper,
